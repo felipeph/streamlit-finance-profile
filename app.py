@@ -155,8 +155,6 @@ if dsop_submitted:
     
     st.write("Seu perfil é:")
     
-    st.balloons()
-    
     for profile in profiles:
         if  profile["min_score"] <= score <= profile["max_score"]:
             
