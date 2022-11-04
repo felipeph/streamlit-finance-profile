@@ -160,15 +160,14 @@ if dsop_submitted:
     for profile in profiles:
         if  profile["min_score"] <= score <= profile["max_score"]:
             
-            match profile["color"]:
-                case "green":
-                    st.success(profile["profile"])
-                case "blue":
-                    st.info(profile["profile"])
-                case "yellow":
-                    st.warning(profile["profile"])
-                case "red":
-                    st.error(profile["profile"])
+            if profile["color"] == "green":
+                st.success(profile["profile"])
+            elif profile["color"] == "blue":
+                st.info(profile["profile"])
+            elif profile["color"] == "yellow":
+                st.warning(profile["profile"])
+            else:
+                st.error(profile["profile"])
             
             st.write(profile["text"])
     
