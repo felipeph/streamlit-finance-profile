@@ -151,3 +151,11 @@ with open("artigo-dsop.pdf", "rb") as file:
         file_name="artigo-dsop.pdf",
         mime="application/pdf"
         )
+    
+with open("scores.csv", "rb") as file:
+    download_csv = st.download_button(
+        label="Baixar csv",
+        data=file,
+        file_name="scores.csv",
+        mime="text/csv"
+    )
