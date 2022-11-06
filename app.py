@@ -24,6 +24,8 @@
 # Framework that creates the app
 import streamlit as st
 
+import pandas as pd
+
 from datetime import datetime
 
 import csv
@@ -159,3 +161,7 @@ with open("scores.csv", "rb") as file:
         file_name="scores.csv",
         mime="text/csv"
     )
+
+df = pd.read_csv("scores.csv")
+
+st.write(df)    
