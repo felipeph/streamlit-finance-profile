@@ -30,8 +30,6 @@ from datetime import datetime
 
 import csv
 
-import socket
-
 import form
 
 # Score starts as zero
@@ -47,6 +45,13 @@ def update_score(score, radio_selected, high_points_answer, high_points_value, l
         score += 0
         
     return score
+
+def get_perfil(score):
+    for profile in form.profiles:
+        if  profile["min_score"] <= score <= profile["max_score"]:
+            perfil = profile["profile"]    
+    return perfil
+    
 
 
 # ------------ INTERFACE ---------------------------
@@ -89,27 +94,53 @@ with st.form("form_dsop"):
                              list(form.answers[i].keys())[2])
     
     
-      
+    st.write("---")
+    
+    idade = st.number_input("Idade", step=1, min_value=14, max_value=99)
+
+    
+    st.write("---")
+    
+    escolaridade = st.radio("Último Nível de Escolaridade Completo",
+                            ("Sem instrução",
+                             "Ensino Fundamental",
+                             "Ensino Médio",
+                             "Ensino Superior"))
+
+    
+    st.write("---")
+    
+    renda = st.radio("Renda Pessoal Mensal (aproximadamente)",
+                     ("Sem Rendimentos",
+                      "Até 1 salário mínimo",
+                      "Até 2 salários mínimos",
+                      "Até 5 salários mínimos",
+                      "Até 10 salários mínimos",
+                      "Até 20 salários mínimos",
+                      "Mais de 20 salários mínimos"))
+    
+    perfil = get_perfil(score)
+    
     # Button for the form submit
-    dsop_submitted = st.form_submit_button("Calcular")
+    dsop_submitted = st.form_submit_button("Enviar")
 
 # After the form is submitted
 if dsop_submitted:
   
-    hostname = socket.gethostname()
-
-    ip_address = socket.gethostbyname(hostname)
-    
+ 
     # Dictionary to create a new record
     new_record = {"timestamp": datetime.now(), 
-                  "ip_address" : ip_address,
-                  "score" : score}
+                  "perfil" : perfil,
+                  "score" : score,
+                  "escolaridade" : escolaridade,
+                  "idade" : idade,
+                  "renda" : renda}
     
     # Header of the csv file
-    header = ["timestamp", "ip_address", "score"]
+    header = list(new_record.keys())
     
     # Open the csv file with timestamp and score
-    with open("scores.csv", "a", newline="") as records:
+    with open("scores.csv", "a", newline="", encoding="UTF-8") as records:
         
         # 
         writer = csv.DictWriter(records, fieldnames=header)
@@ -164,4 +195,4 @@ with open("scores.csv", "rb") as file:
 
 df = pd.read_csv("scores.csv")
 
-st.write(df)    
+st.write(df)
