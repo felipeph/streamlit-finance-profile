@@ -1,9 +1,56 @@
-# YOUR PROJECT TITLE
+# Financial Behavior Research
 #### Video Demo: 
-#### Description:
+#### Description: 
 
-# CS50 Python - Final Project
-I'm a Calculus teacher at Anhanguera College in Belo Horizonte, Minas Gerais, Brazil. Since my undergraduate in Mathematics, I researched Technology, Mathematics, and Education, experimenting with a good deal of software such as Wolfram Mathematica, Matlab, Octave, Geogebra, WolframAlpha, PhotoMath, and so on.
+
+
+## CS50 Python - Final Project
+## Introduction
+
+Hi, my name is Felipe Pereira Heitmann and I'm a Calculus teacher at Anhanguera College in Belo Horizonte, Minas Gerais, Brazil. I took the CS50’s Introduction to Programming with Python right after completed CS50’s Introduction to Computer Science last month. 
+
+When I was heading to the last week on the CS50 Python, a fellow teacher here at the Anhanguera College asked for my help in a project about the Financial Behavior of our students. I merged this demand with the final project for this course. 
+
+The main struggle of the project was that the form given to the students to fill was based on a methodology that required to assign a number of points to each answer of a given question and not simply check if the answer was right or wrong. Because of this issue we could not use a simple form generator like a Google Forms or Microsoft Forms to collect the students' data.
+
+So I decided to build an interactive form from ground up using Python as my Final Project.
+
+## Project Design
+
+We needed a form that was able to record the user's selection among options in multiple choice questions and assign to each answer a value and present a final score of using these values.
+
+- User Interface:
+    - User read a question.
+    - User read the options for a given question.
+    - User selects an option as their answer.
+    - User repeats it to 10 questions.
+    - User informs age, instruction level and monthly wage.
+    - User submit the form.
+    - User receive a message with a profile.
+    - User can download a financial spreadsheet to use.
+    - User can download a financial behavior article to read.
+
+- Data Processing:
+    - The questions, answers and profiles are loaded from a .json file into a dictionary.
+    - A form is created to hold the questions and answers.
+    - Inside this form the questions and answers are loaded from the dictionary.
+    - The score of the answers is computed after every user option choice.
+    - The user profile is set given the final score.
+    - The user identification data (age, instruction level and monthly wage) is inputted.
+    - The form button sets an end to the inputs.
+    - A dictionary with profile, score, instruction level and monthly wage is created.
+    - This dictionary is saved into a .csv file
+    - This file is read into a data frame.
+
+
+## Tools and Methods
+
+## Timeline
+
+## Presentation Script
+
+
+Since my undergraduate in Mathematics, I researched Technology, Mathematics, and Education, experimenting with a good deal of software such as Wolfram Mathematica, Matlab, Octave, Geogebra, WolframAlpha, PhotoMath, and so on.
 
 When I got my master's degree in Mathematics Education and Technology in 2013 I was researching how students could solve mathematical problems in a group inside a distance learning environment.
 

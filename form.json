@@ -1,0 +1,231 @@
+{
+    "title": "Teste de Perfil Financeiro",
+    "subtitle": "Metodologia DSOP: Diagnosticar, Sonhar, Orçar e Poupar",
+    "description": "Qual seu perfil? Superendividado, Endividado, Equilibrado Financeiramente ou Investidor? Responda as perguntas abaixo e descubra:",
+    "age": {
+        "question": "Idade"
+    },
+    "instruction_level": {
+        "question": "Último Nível de Escolaridade Completo",
+        "answers": [
+            "Sem instrução",
+            "Ensino Fundamental",
+            "Ensino Médio",
+            "Ensino Superior"
+        ]
+    },
+    "monthly_wage": {
+        "question": "Renda Pessoal Mensal (aproximadamente)",
+        "answers": [
+            "Sem Rendimentos",
+            "Até 1 salário mínimo",
+            "Até 2 salários mínimos",
+            "Até 5 salários mínimos",
+            "Até 10 salários mínimos",
+            "Até 20 salários mínimos",
+            "Mais de 20 salários mínimos"
+        ]
+    },
+    "options": [
+        {
+            "question": "O que você ganha por mês é suficiente para arcar com os seus gastos?",
+            "answers": [
+                {
+                    "text": "Consigo pagar as minhas contas e ainda guardo mais 10% dos meus ganhos.",
+                    "value": 10
+                },
+                {
+                    "text": "É suficiente, mas não sobra nada.",
+                    "value": 5
+                },
+                {
+                    "text": "Gasto todo o meu dinheiro e ainda uso o limite do cheque especial ou peço emprestado para parentes e amigos",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "question": "Você tem conseguido pagar as suas despesas em dia e à vista?",
+            "answers": [
+                {
+                    "text": "Pago em dia, à vista e, em alguns casos, com bons descontos.",
+                    "value": 10
+                },
+                {
+                    "text": "Quase sempre, mas tenho que parcelar as compras de maior valor.",
+                    "value": 5
+                },
+                {
+                    "text": "Sempre parcelo os meus compromissos e utilizo linhas de crédito como cheque especial, cartão de crédito e crediário.",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "question": "Você realiza o seu orçamento financeiro mensalmente?",
+            "answers": [
+                {
+                    "text": "Faço periodicamente e comparo o orçado com o realizado.",
+                    "value": 10
+                },
+                {
+                    "text": "Somente registro o realizado, sem analisar os gastos.",
+                    "value": 5
+                },
+                {
+                    "text": "Não faço o meu orçamento financeiro.",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "question": "Você consegue fazer algum tipo de investimento?",
+            "answers": [
+                {
+                    "text": "Utilizo mais de 10% do meu ganho em linhas de investimentos, que variam de acordo com os meus sonhos.",
+                    "value": 10
+                },
+                {
+                    "text": "Quando sobra dinheiro, invisto, normalmente, na poupança.",
+                    "value": 5
+                },
+                {
+                    "text": "Nunca sobra dinheiro para esse tipo de ação.",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "question": "Como você planeja a sua aposentadoria?",
+            "answers": [
+                {
+                    "text": "Tenho planos alternativos de previdência privada para garantir a minha segurança financeira.",
+                    "value": 10
+                },
+                {
+                    "text": "Contribuo para a previdência social. Sei que preciso de reserva extra, mas não consigo poupar.",
+                    "value": 5
+                },
+                {
+                    "text": "Não contribuo para a previdência social e nem para a privada.",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "question": "O que você entende sobre ser Independente Financeiramente?",
+            "answers": [
+                {
+                    "text": "Que posso trabalhar por prazer e não por necessidade.",
+                    "value": 10
+                },
+                {
+                    "text": "Que posso ter dinheiro para viver bem o dia a dia.",
+                    "value": 5
+                },
+                {
+                    "text": "Que posso curtir a vida intensamente e não pensar no futuro.",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "question": "Você sabe quais são os seus sonhos e objetivos de curto, médio e longo prazos?",
+            "answers": [
+                {
+                    "text": "Sei quais são, quanto custam e por quanto tempo terei que guardar para realizá-los",
+                    "value": 10
+                },
+                {
+                    "text": "Tenho muitos sonhos e sei quanto custam, mas não sei como realizá-los.",
+                    "value": 5
+                },
+                {
+                    "text": "Não tenho sonhos ou, se tenho, sempre acabo deixando-os para o futuro, porque não consigo guardar dinheiro para eles.",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "question": "Se um imprevisto alterasse a sua situação financeira, qual seria a sua reação?",
+            "answers": [
+                {
+                    "text": "Faria um bom diagnóstico financeiro, registrando o que ganho e o que gasto, além dos meus investimentos e dívidas, se os tiverem.",
+                    "value": 10
+                },
+                {
+                    "text": "Cortaria despesas e gastos desnecessários.",
+                    "value": 5
+                },
+                {
+                    "text": "Não saberia por onde começar e teria medo de encarar a minha verdadeira situação financeira.",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "question": "Se a partir de hoje você não recebesse mais seu ganho, por quanto tempo você conseguiria manter seu atual padrão de vida?",
+            "answers": [
+                {
+                    "text": "Conseguiria fazer tudo que faço por 5, 10 ou mais anos.",
+                    "value": 10
+                },
+                {
+                    "text": "Manteria meu padrão de vida por 1 a, no máximo, 4 anos.",
+                    "value": 5
+                },
+                {
+                    "text": "Não conseguiria me manter nem por alguns meses.",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "question": "Quando você decide comprar um produto, qual é a sua atitude?",
+            "answers": [
+                {
+                    "text": "Planejo uma forma de investimento para comprar à vista e com desconto.",
+                    "value": 10
+                },
+                {
+                    "text": "Parcelo dentro do meu orçamento.",
+                    "value": 5
+                },
+                {
+                    "text": "Compro e depois me preocupo como vou pagar.",
+                    "value": 0
+                }
+            ]
+        }
+    ],
+    "profiles": [
+        {
+            "profile": "Investidor",
+            "min_score": 80,
+            "max_score": 100,
+            "text": "Parabéns! Você está no caminho certo! O habito de poupar é o melhor meio para se tornar uma pessoa sustentável financeiramente. É preciso proteger, poupar e guardar parte do dinheiro que passa em suas mãos, pois é por meio dele que você realizará seus sonhos e objetivos. Atrelar o dinheiro guardado a um sonho é o segredo para que ele se realize. Tenha sempre no mínimo 3 sonhos: curto prazo, médio prazo e longo prazo. É importante que você respeite seu dinheiro, lembrando que ele não aceita desaforo, por isso invista sempre em grandes instituições financeiras, como bancos, corretoras e seguradoras. Reúna a família periodicamente e converse sobre o que pretendem realizar no futuro, incluindo as crianças nessas reuniões, pois elas têm muito a contribuir. Ressalto a importância de inserir como sonho a ser realizado, o da independência financeira ou aposentadoria sustentável. Acredite na beleza dos seus sonhos!",
+            "color": "green"
+        },
+        {
+            "profile": "Equilibrado Financeiramente",
+            "min_score": 50,
+            "max_score": 75,
+            "text": "Pode parecer que tudo está em plena ordem. O fato de não ter dividas, ou se as tiver, estarem controladas, não pode ser sinônimo de tranquilidade. Isso porque você não criou o habito de guardar parte do dinheiro que ganha e, consequentemente, quase não consegue acumular reservas financeiras. Grande parte da população se encontra nessa situação, que é um grande risco. Se algum imprevisto acontecer, como ser convidado para ser padrinho ou madrinha de casamento, ganhar um afilhado, entre outros, por exemplo, é provável que você não tenha alternativa a não ser se tornar uma pessoa inadimplente junto aos compromissos assumidos. Essa situação é conhecida como zona de conforto, mas você deve assumir uma nova postura em relação a utilização do seu dinheiro. É preciso retomar o comando de sua vida financeira, fazer imediatamente um diagnóstico com a ajuda da família, registrando por 30, 60 ou no máximo 90 dias tudo que gastar até mesmo as pequenas despesas. De acordo com uma pesquisa realizada pela DSOP, as famílias possuem, em média, um acréscimo em suas despesas em torno de 20%, seja em compras, em agua, em luz e inclusive, com compras supérfluas. É preciso definir os sonhos para iniciar o processo, lembrando que para cada sonho, também é necessário saber quanto custa, quanto deve guardar por mês e em quanto tempo o realizará: curto, médio ou longo prazo.",
+            "color": "blue"
+        },
+        {
+            "profile": "Endividado",
+            "min_score": 20,
+            "max_score": 45,
+            "text": "Estar endividado nem sempre é um problema, você pode estar inadimplente, ou próximo disso. É preciso ter muita atenção e não desanimar, porque chegou o momento de levantar a cabeça e saber que sempre existe um caminho. Recomendo o caminho da educação financeira, por meio da metodologia DSOP. É preciso assumir o controle financeiro da sua vida financeira. Como dito anteriormente, reúna a família, inclusive as crianças para uma conversa franca. Talvez seja a primeira vez que você está fazendo isso. O importante é que todos estejam envolvidos nessa missão e com o sonho de sair dessa situação.",
+            "color": "yellow"
+        },
+        {
+            "profile": "Superendividado",
+            "min_score": 0,
+            "max_score": 15,
+            "text": "Muita calma nessa hora! Estar superendividado, acredite, é o começo de uma nova história. Não nascemos endividados e nem mesmo investidores. Ganhamos e gastamos o dinheiro, ele é um meio importante, mas não podemos tê-lo como um fim. O verdadeiro fim são nossos sonhos e propósitos, assim como os de nossas famílias. Precisamos compreender o ciclo do endividamento, não podemos criticar as formas de créditos. Quando se chega a essa situação é a certeza que novos caminhos virão pela frente. É um marco de um novo começo, para conquistar um novo fim! A orientação em seu caso é de muita calma e serenidade. Tudo é possível, não tenha dúvida. O caminho será se educar financeiramente e será preciso seguir um jeito de fazer, que vamos chamar de Metodologia DSOP de Educação Financeira. Chegou a hora de assumir as rédeas de sua vida financeira e dar um basta nessa situação.",
+            "color": "red"
+        }
+    ]
+}

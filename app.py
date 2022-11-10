@@ -1,3 +1,5 @@
+# --------- FINANCIAL BEHAVIOR APP ----------------
+
 # -------------- ROAD MAP ----------------
 # - Form with the questions and the answers to that question
 # - The from computes the score of the answers
@@ -26,136 +28,82 @@ import streamlit as st
 
 import pandas as pd
 
-from datetime import datetime
+import project
 
-import csv
 
-import form
+# ------------ FILES ---------------------------
+
+csv_file = r".\records\scores.csv"
+planilha = r".\download\planilha-mensal.xlsx"
+artigo = r".\download\artigo-dsop.pdf"
+form_file = r"form.json"
+
+# Get the dict with the form info
+form_dict = project.get_form_dict(form_file)
 
 # Score starts as zero
 score = 0
 
-# Function to update the score given the points of each answer
-def update_score(score, radio_selected, high_points_answer, high_points_value, low_points_answer, low_points_value):
-    if radio_selected == high_points_answer:
-        score += int(high_points_value)
-    elif radio_selected == low_points_answer:
-        score += int(low_points_value)
-    else:
-        score += 0
-        
-    return score
-
-def get_perfil(score):
-    for profile in form.profiles:
-        if  profile["min_score"] <= score <= profile["max_score"]:
-            perfil = profile["profile"]    
-    return perfil
-    
-
 
 # ------------ INTERFACE ---------------------------
 # Title and subtitle
-st.title(form.TITLE)
-st.markdown(form.SUBTITLE)
+st.title(form_dict['title'])
+st.write(form_dict['subtitle'])
 
 # Form that is immutable before send
 with st.form("form_dsop"):
-    
+ 
     # Description inside the form
-    st.markdown(form.DESCRIPTION)    
+    st.markdown(form_dict['description'])    
     
     # Questions and answers as radio buttons
-    for i in range(form.N_QUESTIONS):
+    for row in range(len(form_dict['options'])):
         
-        # Horizontal line as a separator
+        # Get the question and the answers of this row        
+        question = project.get_question(form_dict, row)              
+        answers_tuple = project.get_options(form_dict, row)
+        
+        # Line, Question and Options
         st.write("---")
+        st.subheader(question) 
+        option_selected = st.radio("", answers_tuple)
         
-        # Radio selection for the answers of each question
-        # First arg is the question (but prints small)
-        # Second arg is a tuple of options for answers
-        radio_selected = st.radio(form.answers[i]["question"], 
-                                  (form.answers[i][10], 
-                                   form.answers[i][5], 
-                                   form.answers[i][0]))
+        # Update score after selecting the option
+        score = project.update_score(score, form_dict, row, option_selected)
+    
+    # Get the user profile given a score
+    perfil = project.get_profile(score, form_dict)
         
-        # Update the score 
-        # First arg is the actual score
-        # Second arg is the option selected
-        # Third argument is the high score answer
-        # Fourth arg is the value of the high score answer
-        # Fifth arg is the low score answer
-        # Sixth arg is the value of the low score answer
-        score = update_score(score,
-                             radio_selected, 
-                             form.answers[i][10],
-                             list(form.answers[i].keys())[1],
-                             form.answers[i][5],
-                             list(form.answers[i].keys())[2])
-    
-    
+    # Line, Question about age, Input number to age    
     st.write("---")
-    
-    idade = st.number_input("Idade", step=1, min_value=14, max_value=99)
+    st.subheader(form_dict['age']['question'])
+    idade = st.number_input("", step=1, min_value=14, max_value=99)
 
-    
+    # Line, Question about instruction level and options
     st.write("---")
-    
-    escolaridade = st.radio("Último Nível de Escolaridade Completo",
-                            ("Sem instrução",
-                             "Ensino Fundamental",
-                             "Ensino Médio",
-                             "Ensino Superior"))
+    st.subheader(form_dict['instruction_level']['question'])
+    escolaridade = st.radio("",tuple(form_dict['instruction_level']['answers']))
 
-    
+    # Line, Question about monthly wage and options
     st.write("---")
-    
-    renda = st.radio("Renda Pessoal Mensal (aproximadamente)",
-                     ("Sem Rendimentos",
-                      "Até 1 salário mínimo",
-                      "Até 2 salários mínimos",
-                      "Até 5 salários mínimos",
-                      "Até 10 salários mínimos",
-                      "Até 20 salários mínimos",
-                      "Mais de 20 salários mínimos"))
-    
-    perfil = get_perfil(score)
-    
+    st.subheader(form_dict['monthly_wage']['question'])
+    renda = st.radio("",tuple(form_dict['monthly_wage']['answers']))
+      
     # Button for the form submit
     dsop_submitted = st.form_submit_button("Enviar")
 
 # After the form is submitted
 if dsop_submitted:
-  
- 
-    # Dictionary to create a new record
-    new_record = {"timestamp": datetime.now(), 
-                  "perfil" : perfil,
-                  "score" : score,
-                  "escolaridade" : escolaridade,
-                  "idade" : idade,
-                  "renda" : renda}
-    
-    # Header of the csv file
-    header = list(new_record.keys())
-    
-    # Open the csv file with timestamp and score
-    with open("scores.csv", "a", newline="", encoding="UTF-8") as records:
-        
-        # 
-        writer = csv.DictWriter(records, fieldnames=header)
-        
-        # Append a new row to the csv file    
-        writer.writerow(new_record)
-    
-  
-    
+
+    # Add a new record to the csv
+    record_added = project.make_new_record(perfil, score, escolaridade, idade, renda, csv_file)
+   
     # Title of the score given to the user
     st.title("Seu perfil é:")
-    
+        
     # Select the text and what to show to user given a score
-    for profile in form.profiles:
-        if  profile["min_score"] <= score <= profile["max_score"]:
+    for profile in form_dict['profiles']:
+        if  profile["profile"] == perfil:
             if profile["color"] == "green":
                 st.success(profile["profile"])
             if profile["color"] == "blue":
@@ -165,10 +113,11 @@ if dsop_submitted:
             if profile["color"] == "red":
                 st.error(profile["profile"])
             
+            # Show the text of that given profile
             st.write(profile["text"])
 
 # Button for the user to download the spreadsheet    
-with open("planilha-mensal.xlsx", "rb") as file:
+with open(planilha, "rb") as file:
     download_spreadsheet = st.download_button(
         label="Baixar Planilha de Orçamento Mensal",
         data=file,
@@ -177,7 +126,7 @@ with open("planilha-mensal.xlsx", "rb") as file:
         )
 
 # Button for the user to download the article
-with open("artigo-dsop.pdf", "rb") as file:
+with open(artigo, "rb") as file:
     download_pdf = st.download_button(
         label="Artigo sobre a Metodologia DSOP",
         data=file,
@@ -185,14 +134,14 @@ with open("artigo-dsop.pdf", "rb") as file:
         mime="application/pdf"
         )
     
-with open("scores.csv", "rb") as file:
+with open(csv_file, "rb") as file:
     download_csv = st.download_button(
         label="Baixar csv",
         data=file,
-        file_name="scores.csv",
+        file_name=csv_file,
         mime="text/csv"
     )
 
-df = pd.read_csv("scores.csv")
+# df = pd.read_csv(csv_file)
 
-st.write(df)
+# st.dataframe(df)

@@ -1,0 +1,172 @@
+[
+    {
+        "question": "O que você ganha por mês é suficiente para arcar com os seus gastos?",
+        "answers": [
+            {
+                "text": "Consigo pagar as minhas contas e ainda guardo mais 10% dos meus ganhos.",
+                "value": 10
+            },
+            {
+                "text": "É suficiente, mas não sobra nada.",
+                "value": 5
+            },
+            {
+                "text": "Gasto todo o meu dinheiro e ainda uso o limite do cheque especial ou peço emprestado para parentes e amigos",
+                "value": 0
+            }
+        ]
+    },
+    {
+        "question": "Você tem conseguido pagar as suas despesas em dia e à vista?",
+        "answers": [
+            {
+                "text": "Pago em dia, à vista e, em alguns casos, com bons descontos.",
+                "value": 10
+            },
+            {
+                "text": "Quase sempre, mas tenho que parcelar as compras de maior valor.",
+                "value": 5
+            },
+            {
+                "text": "Sempre parcelo os meus compromissos e utilizo linhas de crédito como cheque especial, cartão de crédito e crediário.",
+                "value": 0
+            }
+        ]
+    },
+    {
+        "question": "Você realiza o seu orçamento financeiro mensalmente?",
+        "answers": [
+            {
+                "text": "Faço periodicamente e comparo o orçado com o realizado.",
+                "value": 10
+            },
+            {
+                "text": "Somente registro o realizado, sem analisar os gastos.",
+                "value": 5
+            },
+            {
+                "text": "Não faço o meu orçamento financeiro.",
+                "value": 0
+            }
+        ]
+    },
+    {
+        "question": "Você consegue fazer algum tipo de investimento?",
+        "answers": [
+            {
+                "text": "Utilizo mais de 10% do meu ganho em linhas de investimentos, que variam de acordo com os meus sonhos.",
+                "value": 10
+            },
+            {
+                "text": "Quando sobra dinheiro, invisto, normalmente, na poupança.",
+                "value": 5
+            },
+            {
+                "text": "Nunca sobra dinheiro para esse tipo de ação.",
+                "value": 0
+            }
+        ]
+    },
+    {
+        "question": "Como você planeja a sua aposentadoria?",
+        "answers": [
+            {
+                "text": "Tenho planos alternativos de previdência privada para garantir a minha segurança financeira.",
+                "value": 10
+            },
+            {
+                "text": "Contribuo para a previdência social. Sei que preciso de reserva extra, mas não consigo poupar.",
+                "value": 5
+            },
+            {
+                "text": "Não contribuo para a previdência social e nem para a privada.",
+                "value": 0
+            }
+        ]
+    },
+    {
+        "question": "O que você entende sobre ser Independente Financeiramente?",
+        "answers": [
+            {
+                "text": "Que posso trabalhar por prazer e não por necessidade.",
+                "value": 10
+            },
+            {
+                "text": "Que posso ter dinheiro para viver bem o dia a dia.",
+                "value": 5
+            },
+            {
+                "text": "Que posso curtir a vida intensamente e não pensar no futuro.",
+                "value": 0
+            }
+        ]
+    },
+    {
+        "question": "Você sabe quais são os seus sonhos e objetivos de curto, médio e longo prazos?",
+        "answers": [
+            {
+                "text": "Sei quais são, quanto custam e por quanto tempo terei que guardar para realizá-los",
+                "value": 10
+            },
+            {
+                "text": "Tenho muitos sonhos e sei quanto custam, mas não sei como realizá-los.",
+                "value": 5
+            },
+            {
+                "text": "Não tenho sonhos ou, se tenho, sempre acabo deixando-os para o futuro, porque não consigo guardar dinheiro para eles.",
+                "value": 0
+            }
+        ]
+    },
+    {
+        "question": "Se um imprevisto alterasse a sua situação financeira, qual seria a sua reação?",
+        "answers": [
+            {
+                "text": "Faria um bom diagnóstico financeiro, registrando o que ganho e o que gasto, além dos meus investimentos e dívidas, se os tiverem.",
+                "value": 10
+            },
+            {
+                "text": "Cortaria despesas e gastos desnecessários.",
+                "value": 5
+            },
+            {
+                "text": "Não saberia por onde começar e teria medo de encarar a minha verdadeira situação financeira.",
+                "value": 0
+            }
+        ]
+    },
+    {
+        "question": "Se a partir de hoje você não recebesse mais seu ganho, por quanto tempo você conseguiria manter seu atual padrão de vida?",
+        "answers": [
+            {
+                "text": "Conseguiria fazer tudo que faço por 5, 10 ou mais anos.",
+                "value": 10
+            },
+            {
+                "text": "Manteria meu padrão de vida por 1 a, no máximo, 4 anos.",
+                "value": 5
+            },
+            {
+                "text": "Não conseguiria me manter nem por alguns meses.",
+                "value": 0
+            }
+        ]
+    },
+    {
+        "question": "Quando você decide comprar um produto, qual é a sua atitude?",
+        "answers": [
+            {
+                "text": "Planejo uma forma de investimento para comprar à vista e com desconto.",
+                "value": 10
+            },
+            {
+                "text": "Parcelo dentro do meu orçamento.",
+                "value": 5
+            },
+            {
+                "text": "Compro e depois me preocupo como vou pagar.",
+                "value": 0
+            }
+        ]
+    }
+]
