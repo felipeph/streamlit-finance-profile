@@ -134,7 +134,7 @@ with open(artigo, "rb") as file:
         mime="application/pdf"
         )
     
-with open(csv_file, "rb") as file:
+with open(csv_file, "rb", encoding="UTF-8") as file:
     download_csv = st.download_button(
         label="Baixar csv",
         data=file,
