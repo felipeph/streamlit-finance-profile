@@ -33,9 +33,9 @@ import project
 
 # ------------ FILES ---------------------------
 
-csv_file = r".\records\scores.csv"
-planilha = r".\download\planilha-mensal.xlsx"
-artigo = r".\download\artigo-dsop.pdf"
+csv_file = r"scores.csv"
+planilha = r"planilha-mensal.xlsx"
+artigo = r"artigo-dsop.pdf"
 form_file = r"form.json"
 
 # Get the dict with the form info
