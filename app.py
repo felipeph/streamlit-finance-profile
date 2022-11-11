@@ -144,4 +144,4 @@ with open(artigo, "rb") as file:
 
 #df = pd.read_csv(csv_file)
 
-#st.dataframe(df)
+st.dataframe(df)
