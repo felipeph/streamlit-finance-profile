@@ -142,6 +142,6 @@ with open(artigo, "rb") as file:
 #        mime="text/csv"
 #    )
 
-#df = pd.read_csv(csv_file)
+df = pd.read_csv(csv_file)
 
 st.dataframe(df)
