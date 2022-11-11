@@ -66,7 +66,7 @@ with st.form("form_dsop"):
         # Line, Question and Options
         st.write("---")
         st.subheader(question) 
-        option_selected = st.radio("", answers_tuple)
+        option_selected = st.radio('Select option', answers_tuple, label_visibility='hidden')
         
         # Update score after selecting the option
         score = project.update_score(score, form_dict, row, option_selected)
@@ -77,17 +77,17 @@ with st.form("form_dsop"):
     # Line, Question about age, Input number to age    
     st.write("---")
     st.subheader(form_dict['age']['question'])
-    idade = st.number_input("", step=1, min_value=14, max_value=99)
+    idade = st.number_input("Digite sua idade", step=1, min_value=14, max_value=99, label_visibility='hidden')
 
     # Line, Question about instruction level and options
     st.write("---")
     st.subheader(form_dict['instruction_level']['question'])
-    escolaridade = st.radio("",tuple(form_dict['instruction_level']['answers']))
+    escolaridade = st.radio("Selecione uma opção", tuple(form_dict['instruction_level']['answers']), label_visibility='hidden')
 
     # Line, Question about monthly wage and options
     st.write("---")
     st.subheader(form_dict['monthly_wage']['question'])
-    renda = st.radio("",tuple(form_dict['monthly_wage']['answers']))
+    renda = st.radio("Selecione uma opção", tuple(form_dict['monthly_wage']['answers']), label_visibility='hidden')
       
     # Button for the form submit
     dsop_submitted = st.form_submit_button("Enviar")
@@ -133,6 +133,9 @@ with open(artigo, "rb") as file:
         file_name="artigo-dsop.pdf",
         mime="application/pdf"
         )
+
+for i in range(50):
+    st.write("")
 
 df = pd.read_csv(csv_file)
 
