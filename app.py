@@ -35,7 +35,7 @@ import project
 
 csv_file = r"scores.csv"
 planilha = r"planilha-mensal.xlsx"
-artigo = r"artigo-dsop.pdf"
+artigo = r"./download/artigo-dsop.pdf"
 form_file = r"form.json"
 
 # Get the dict with the form info
