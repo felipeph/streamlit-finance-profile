@@ -133,15 +133,18 @@ with open(artigo, "rb") as file:
         file_name="artigo-dsop.pdf",
         mime="application/pdf"
         )
-    
-#with open(csv_file, "rb") as file:
-#    download_csv = st.download_button(
-#        label="Baixar csv",
-#        data=file,
-#        file_name=csv_file,
-#        mime="text/csv"
-#    )
 
 df = pd.read_csv(csv_file)
+
+csv_data = df.to_csv(index=False).encode('utf-8')
+
+st.download_button(
+   "Baixar csv",
+   csv_data,
+   "scores.csv",
+   "text/csv",
+   key='download-csv'
+)
+
 
 st.dataframe(df)
