@@ -33,7 +33,7 @@ import project
 
 # ------------ FILES ---------------------------
 
-csv_file = r"scores.csv"
+csv_file = r"./records/scores.csv"
 planilha = r"./download/planilha-mensal.xlsx"
 artigo = r"./download/artigo-dsop.pdf"
 form_file = r"form.json"
