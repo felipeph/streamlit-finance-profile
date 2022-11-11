@@ -134,7 +134,7 @@ with open(artigo, "rb") as file:
         mime="application/pdf"
         )
 
-for i in range(50):
+for i in range(200):
     st.write("")
 
 df = pd.read_csv(csv_file)
