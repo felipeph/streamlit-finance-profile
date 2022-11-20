@@ -1,2 +1,146 @@
 timestamp, perfil, score, escolaridade, idade, renda
-
+2022-11-11 12:23:29.658384,Equilibrado Financeiramente,70,Ensino Médio,15,Até 1 salário mínimo
+2022-11-11 12:23:35.945474,Endividado,35,Ensino Médio,18,Sem Rendimentos
+2022-11-11 12:24:28.348468,Equilibrado Financeiramente,65,Ensino Médio,18,Até 1 salário mínimo
+2022-11-11 12:24:45.999139,Equilibrado Financeiramente,65,Ensino Médio,17,Até 2 salários mínimos
+2022-11-11 12:24:58.199162,Endividado,45,Ensino Médio,18,Até 1 salário mínimo
+2022-11-11 12:25:12.522163,Equilibrado Financeiramente,75,Ensino Médio,17,Até 1 salário mínimo
+2022-11-11 12:25:59.274264,Superendividado,15,Ensino Médio,18,Sem Rendimentos
+2022-11-11 12:27:03.608994,Equilibrado Financeiramente,60,Ensino Médio,15,Até 2 salários mínimos
+2022-11-11 12:27:07.925491,Investidor,80,Ensino Médio,17,Até 1 salário mínimo
+2022-11-11 12:27:35.918929,Equilibrado Financeiramente,60,Ensino Fundamental,17,Até 1 salário mínimo
+2022-11-11 12:28:07.810572,Endividado,45,Ensino Fundamental,19,Até 5 salários mínimos
+2022-11-11 12:32:35.535298,Investidor,80,Ensino Médio,17,Até 1 salário mínimo
+2022-11-11 12:33:15.304504,Equilibrado Financeiramente,70,Ensino Médio,18,Até 1 salário mínimo
+2022-11-11 12:35:08.820750,Equilibrado Financeiramente,65,Ensino Médio,18,Até 2 salários mínimos
+2022-11-11 12:35:08.952395,Equilibrado Financeiramente,65,Ensino Médio,18,Até 2 salários mínimos
+2022-11-11 12:41:23.682330,Investidor,80,Ensino Fundamental,18,Até 1 salário mínimo
+2022-11-11 12:41:44.254581,Investidor,80,Ensino Fundamental,18,Até 1 salário mínimo
+2022-11-11 12:42:24.183260,Equilibrado Financeiramente,70,Ensino Fundamental,17,Até 1 salário mínimo
+2022-11-11 12:43:15.737910,Equilibrado Financeiramente,55,Ensino Médio,17,Sem Rendimentos
+2022-11-11 12:43:26.943021,Equilibrado Financeiramente,70,Ensino Fundamental,17,Até 1 salário mínimo
+2022-11-11 12:43:44.944696,Equilibrado Financeiramente,55,Sem instrução,17,Sem Rendimentos
+2022-11-11 12:43:48.127565,Equilibrado Financeiramente,55,Sem instrução,17,Sem Rendimentos
+2022-11-11 12:43:49.025949,Equilibrado Financeiramente,55,Sem instrução,17,Sem Rendimentos
+2022-11-11 12:44:43.780700,Investidor,85,Ensino Fundamental,18,Até 1 salário mínimo
+2022-11-17 11:54:38.140453,Investidor,80,Ensino Médio,18,Até 5 salários mínimos
+2022-11-17 11:54:42.543926,Endividado,45,Ensino Médio,18,Até 2 salários mínimos
+2022-11-17 11:54:42.756104,Endividado,45,Ensino Médio,18,Até 2 salários mínimos
+2022-11-17 11:55:30.537039,Equilibrado Financeiramente,50,Ensino Médio,17,Até 1 salário mínimo
+2022-11-17 11:55:38.085361,Endividado,45,Ensino Médio,18,Até 1 salário mínimo
+2022-11-17 11:55:47.898126,Endividado,45,Ensino Médio,18,Até 1 salário mínimo
+2022-11-17 11:55:52.173163,Endividado,45,Ensino Médio,18,Até 1 salário mínimo
+2022-11-17 11:56:47.860163,Equilibrado Financeiramente,60,Ensino Médio,17,Sem Rendimentos
+2022-11-17 11:57:58.586585,Equilibrado Financeiramente,55,Ensino Fundamental,18,Até 1 salário mínimo
+2022-11-17 11:58:00.850964,Investidor,80,Ensino Fundamental,18,Até 1 salário mínimo
+2022-11-17 11:58:03.239236,Endividado,30,Ensino Fundamental,18,Sem Rendimentos
+2022-11-17 11:58:12.911609,Endividado,30,Ensino Fundamental,18,Até 1 salário mínimo
+2022-11-17 11:58:17.924674,Endividado,30,Ensino Fundamental,18,Sem Rendimentos
+2022-11-17 11:58:22.548495,Equilibrado Financeiramente,55,Ensino Médio,18,Até 1 salário mínimo
+2022-11-17 11:58:29.853138,Equilibrado Financeiramente,55,Ensino Médio,18,Até 2 salários mínimos
+2022-11-17 11:58:33.704787,Equilibrado Financeiramente,55,Ensino Médio,18,Até 2 salários mínimos
+2022-11-17 11:58:39.674466,Equilibrado Financeiramente,50,Ensino Médio,17,Sem Rendimentos
+2022-11-17 11:59:21.677011,Equilibrado Financeiramente,70,Ensino Médio,17,Sem Rendimentos
+2022-11-17 11:59:23.843810,Equilibrado Financeiramente,55,Ensino Médio,17,Sem Rendimentos
+2022-11-17 11:59:24.057711,Equilibrado Financeiramente,55,Ensino Médio,17,Sem Rendimentos
+2022-11-17 11:59:24.188692,Endividado,35,Ensino Médio,18,Sem Rendimentos
+2022-11-17 11:59:55.198695,Endividado,30,Ensino Médio,18,Até 1 salário mínimo
+2022-11-17 12:00:02.350262,Equilibrado Financeiramente,75,Ensino Médio,18,Até 1 salário mínimo
+2022-11-17 12:00:26.249483,Equilibrado Financeiramente,75,Ensino Fundamental,18,Até 1 salário mínimo
+2022-11-17 12:00:26.530809,Equilibrado Financeiramente,75,Ensino Fundamental,18,Até 1 salário mínimo
+2022-11-17 12:00:27.384749,Equilibrado Financeiramente,50,Ensino Médio,17,Até 1 salário mínimo
+2022-11-17 12:00:29.461687,Endividado,40,Ensino Médio,18,Até 1 salário mínimo
+2022-11-17 12:00:43.495372,Endividado,30,Ensino Fundamental,17,Até 1 salário mínimo
+2022-11-17 12:01:38.968152,Endividado,30,Ensino Médio,18,Sem Rendimentos
+2022-11-17 12:01:41.188277,Endividado,30,Ensino Médio,18,Sem Rendimentos
+2022-11-17 12:01:57.028066,Endividado,30,Ensino Médio,17,Até 1 salário mínimo
+2022-11-17 12:01:57.213429,Endividado,30,Ensino Médio,17,Até 1 salário mínimo
+2022-11-17 12:04:32.131113,Endividado,30,Ensino Médio,19,Até 1 salário mínimo
+2022-11-17 12:04:36.415938,Endividado,30,Ensino Médio,19,Até 1 salário mínimo
+2022-11-17 12:04:37.894539,Endividado,30,Ensino Médio,19,Até 1 salário mínimo
+2022-11-17 12:04:50.568670,Equilibrado Financeiramente,65,Ensino Médio,18,Até 1 salário mínimo
+2022-11-17 12:06:26.089950,Equilibrado Financeiramente,60,Ensino Médio,17,Sem Rendimentos
+2022-11-17 12:06:26.387554,Equilibrado Financeiramente,60,Ensino Médio,17,Sem Rendimentos
+2022-11-17 12:06:32.546876,Equilibrado Financeiramente,50,Ensino Superior,57,Até 5 salários mínimos
+2022-11-17 12:06:32.750631,Equilibrado Financeiramente,50,Ensino Superior,57,Até 5 salários mínimos
+2022-11-17 12:14:36.063224,Equilibrado Financeiramente,65,Ensino Médio,17,Até 1 salário mínimo
+2022-11-17 12:15:31.558409,Equilibrado Financeiramente,65,Ensino Médio,17,Até 1 salário mínimo
+2022-11-17 12:23:16.145469,Investidor,90,Ensino Superior,22,Até 2 salários mínimos
+2022-11-17 12:23:35.820265,Equilibrado Financeiramente,75,Ensino Médio,18,Até 1 salário mínimo
+2022-11-17 12:23:36.008374,Equilibrado Financeiramente,75,Ensino Médio,18,Até 1 salário mínimo
+2022-11-17 12:36:42.514209,Investidor,100,Ensino Fundamental,19,Até 5 salários mínimos
+2022-11-17 12:36:44.949058,Equilibrado Financeiramente,55,Ensino Fundamental,17,Sem Rendimentos
+2022-11-17 12:36:47.084783,Investidor,100,Ensino Fundamental,19,Até 5 salários mínimos
+2022-11-17 12:36:47.340253,Investidor,100,Ensino Fundamental,19,Até 5 salários mínimos
+2022-11-17 12:36:54.676244,Investidor,100,Ensino Fundamental,19,Até 5 salários mínimos
+2022-11-17 12:38:04.506454,Endividado,45,Ensino Médio,17,Até 1 salário mínimo
+2022-11-17 12:38:15.419952,Endividado,45,Ensino Médio,17,Até 1 salário mínimo
+2022-11-17 12:39:13.802917,Equilibrado Financeiramente,70,Ensino Médio,19,Até 20 salários mínimos
+2022-11-17 12:39:23.558332,Equilibrado Financeiramente,65,Ensino Fundamental,17,Até 2 salários mínimos
+2022-11-17 12:39:31.327564,Investidor,90,Ensino Médio,17,Sem Rendimentos
+2022-11-17 12:39:36.291617,Endividado,30,Ensino Médio,17,Sem Rendimentos
+2022-11-17 12:39:38.564344,Equilibrado Financeiramente,50,Ensino Fundamental,17,Sem Rendimentos
+2022-11-17 12:39:38.747883,Equilibrado Financeiramente,50,Ensino Fundamental,17,Sem Rendimentos
+2022-11-17 12:40:14.524068,Investidor,80,Ensino Médio,18,Sem Rendimentos
+2022-11-17 12:41:01.485417,Equilibrado Financeiramente,65,Ensino Fundamental,17,Até 1 salário mínimo
+2022-11-17 12:41:02.514365,Equilibrado Financeiramente,70,Ensino Médio,18,Até 1 salário mínimo
+2022-11-17 12:48:33.210899,Equilibrado Financeiramente,70,Ensino Médio,18,Até 1 salário mínimo
+2022-11-17 12:48:45.090493,Equilibrado Financeiramente,70,Ensino Médio,18,Até 1 salário mínimo
+2022-11-17 12:48:45.335394,Equilibrado Financeiramente,70,Ensino Médio,18,Até 1 salário mínimo
+2022-11-17 12:50:25.863422,Investidor,95,Ensino Fundamental,18,Até 2 salários mínimos
+2022-11-17 12:51:07.190032,Equilibrado Financeiramente,75,Ensino Médio,18,Até 1 salário mínimo
+2022-11-17 12:51:07.350578,Equilibrado Financeiramente,75,Ensino Médio,18,Até 1 salário mínimo
+2022-11-17 12:51:19.901115,Endividado,45,Ensino Fundamental,17,Até 1 salário mínimo
+2022-11-17 12:51:20.609303,Equilibrado Financeiramente,55,Ensino Fundamental,16,Até 1 salário mínimo
+2022-11-17 12:51:58.390791,Investidor,90,Ensino Médio,18,Sem Rendimentos
+2022-11-17 12:52:06.680682,Endividado,45,Ensino Médio,17,Até 1 salário mínimo
+2022-11-17 12:52:06.868457,Endividado,45,Ensino Médio,17,Até 1 salário mínimo
+2022-11-17 12:52:13.857974,Endividado,45,Ensino Médio,17,Até 1 salário mínimo
+2022-11-17 12:52:14.131889,Endividado,45,Ensino Médio,17,Até 1 salário mínimo
+2022-11-17 12:52:15.299041,Equilibrado Financeiramente,55,Ensino Médio,17,Até 1 salário mínimo
+2022-11-17 12:52:26.235702,Endividado,45,Ensino Médio,17,Até 1 salário mínimo
+2022-11-17 12:52:36.577799,Equilibrado Financeiramente,70,Ensino Médio,17,Sem Rendimentos
+2022-11-17 12:52:48.388356,Endividado,45,Ensino Médio,17,Até 1 salário mínimo
+2022-11-17 12:52:57.211407,Endividado,45,Ensino Fundamental,17,Até 1 salário mínimo
+2022-11-17 12:52:59.677759,Investidor,80,Ensino Fundamental,17,Até 2 salários mínimos
+2022-11-17 12:53:01.251328,Equilibrado Financeiramente,75,Ensino Fundamental,16,Até 1 salário mínimo
+2022-11-17 12:53:12.646395,Endividado,45,Ensino Fundamental,17,Sem Rendimentos
+2022-11-17 12:53:15.496467,Endividado,45,Ensino Fundamental,17,Sem Rendimentos
+2022-11-17 12:53:16.731082,Endividado,45,Ensino Fundamental,17,Sem Rendimentos
+2022-11-17 12:53:17.317988,Endividado,45,Ensino Fundamental,17,Sem Rendimentos
+2022-11-17 12:53:17.600480,Endividado,45,Ensino Fundamental,17,Sem Rendimentos
+2022-11-17 12:53:17.858198,Endividado,45,Ensino Fundamental,17,Sem Rendimentos
+2022-11-17 12:53:26.474346,Endividado,45,Ensino Médio,17,Até 1 salário mínimo
+2022-11-17 12:53:26.710959,Endividado,45,Ensino Médio,17,Até 1 salário mínimo
+2022-11-17 12:53:28.302158,Endividado,45,Ensino Médio,17,Até 1 salário mínimo
+2022-11-17 12:53:28.499916,Endividado,45,Ensino Médio,17,Até 1 salário mínimo
+2022-11-17 12:53:35.075457,Equilibrado Financeiramente,75,Ensino Médio,18,Até 2 salários mínimos
+2022-11-17 12:53:41.783921,Equilibrado Financeiramente,70,Ensino Fundamental,17,Sem Rendimentos
+2022-11-17 12:53:46.261959,Endividado,45,Ensino Fundamental,17,Sem Rendimentos
+2022-11-17 12:53:46.803385,Endividado,45,Ensino Fundamental,17,Sem Rendimentos
+2022-11-17 12:53:47.014488,Endividado,45,Ensino Fundamental,17,Sem Rendimentos
+2022-11-17 12:53:47.609442,Endividado,45,Ensino Fundamental,17,Sem Rendimentos
+2022-11-17 12:53:47.866860,Endividado,45,Ensino Fundamental,17,Sem Rendimentos
+2022-11-17 12:53:48.153961,Endividado,45,Ensino Fundamental,17,Sem Rendimentos
+2022-11-17 12:53:48.366707,Endividado,45,Ensino Fundamental,17,Sem Rendimentos
+2022-11-17 12:53:48.691712,Endividado,45,Ensino Fundamental,17,Sem Rendimentos
+2022-11-17 12:53:49.964590,Endividado,45,Ensino Fundamental,17,Sem Rendimentos
+2022-11-17 12:53:54.754553,Equilibrado Financeiramente,55,Ensino Médio,18,Sem Rendimentos
+2022-11-17 12:54:42.310847,Superendividado,0,Ensino Fundamental,17,Sem Rendimentos
+2022-11-17 12:55:05.586844,Equilibrado Financeiramente,60,Ensino Médio,17,Sem Rendimentos
+2022-11-17 12:57:50.452557,Endividado,20,Ensino Médio,18,Até 1 salário mínimo
+2022-11-17 13:00:22.266697,Equilibrado Financeiramente,70,Ensino Fundamental,17,Sem Rendimentos
+2022-11-17 13:01:03.745930,Endividado,20,Ensino Fundamental,17,Sem Rendimentos
+2022-11-17 13:02:20.071506,Endividado,40,Ensino Fundamental,17,Até 1 salário mínimo
+2022-11-17 13:06:03.966461,Endividado,35,Ensino Médio,17,Sem Rendimentos
+2022-11-17 13:06:37.051038,Investidor,80,Ensino Médio,18,Até 1 salário mínimo
+2022-11-17 13:07:11.236274,Endividado,25,Ensino Fundamental,17,Até 1 salário mínimo
+2022-11-17 13:07:14.208631,Endividado,25,Ensino Fundamental,17,Até 1 salário mínimo
+2022-11-17 13:08:07.726879,Equilibrado Financeiramente,60,Ensino Médio,17,Até 1 salário mínimo
+2022-11-17 13:08:11.093430,Equilibrado Financeiramente,60,Ensino Médio,17,Até 1 salário mínimo
+2022-11-17 13:08:11.204341,Equilibrado Financeiramente,60,Ensino Médio,17,Até 1 salário mínimo
+2022-11-17 13:09:46.697087,Investidor,85,Ensino Fundamental,18,Até 1 salário mínimo
+2022-11-17 13:09:46.959651,Investidor,85,Ensino Fundamental,18,Até 1 salário mínimo
+2022-11-17 13:15:45.141594,Investidor,85,Ensino Fundamental,18,Até 1 salário mínimo
+2022-11-17 13:17:48.734009,Equilibrado Financeiramente,50,Ensino Superior,21,Até 1 salário mínimo
+2022-11-17 13:17:51.085231,Equilibrado Financeiramente,50,Ensino Superior,21,Até 1 salário mínimo
