@@ -1,28 +1,3 @@
-# --------- FINANCIAL BEHAVIOR APP ----------------
-
-# -------------- ROAD MAP ----------------
-# - Form with the questions and the answers to that question
-# - The from computes the score of the answers
-# - Shows to user the output related to that score
-# - Does not show the score
-# - Questions and answers are in a list of dictionaries
-# - The score update is hardcoded in a way that will not be updated
-# - Now I can record the the answers into a CSV file
-
-
-
-# -------------- IMPROVEMENTS ------------
-# - Get the number of questions from the database or csv
-# - TITLE, SUBTITLE, DESCRIPTION outside of the code
-# - Put the basic info outside this code and import it from outside
-# - Texts from the a db or csv
-# - Put the questions and answers into a database
-# - Break the questions and the answers into different data
-# - Write a new score_update function in a more flexible way
-
-
-
-
 # Framework that creates the app
 import streamlit as st
 
